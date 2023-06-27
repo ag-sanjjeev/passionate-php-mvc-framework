@@ -82,7 +82,13 @@ class Configuration
 	 */
   	public static string $appEnvironment = "";
 
-	function __construct()
+  	/**
+	 * Assignment of property values inside this constructor method executes
+	 *	 
+	 * @author ag-sanjjeev <sanjjeevag.aug21@gmail.com>	 
+	 *
+	 */
+	public function __construct()
 	{
 		self::$dbuser 			= "root";
 		self::$dbpassword 		= "";
